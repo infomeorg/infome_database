@@ -11,4 +11,5 @@ urlpatterns = patterns('',
     url(r'^$',v.index),
     url(r'^imguruploader$',v.imguruploader),
     url(r'^info$', v.apidetails,),
+    url(r'^uid$', v.apiuid,),
 )
