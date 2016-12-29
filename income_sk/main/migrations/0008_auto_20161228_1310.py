@@ -7,13 +7,13 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('main', '0002_auto_20161227_1405'),
+        ('main', '0007_auto_20161228_1310'),
     ]
 
     operations = [
         migrations.AlterField(
             model_name='fragmentname',
-            name='name',
-            field=models.CharField(max_length=250),
+            name='identifier',
+            field=models.CharField(default=1234, max_length=100, null=True),
         ),
     ]
